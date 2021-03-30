@@ -1,0 +1,29 @@
+/* global css */
+#translate-data-container {
+  display: block;
+  width: auto;
+  min-height: 21px;
+  height: auto;
+  max-height: 600px;
+}
+
+#translation-data-panel {
+  outline: 0px;
+  z-index: 100004;
+  height: auto;
+  width: 810px;
+  top: 171px;
+  left: 687px;
+  display: block;
+}
+
+#translation-data-table {
+  user-select: text;
+}
+
+#translation-data-table tr td {
+  text-overflow: ellipsis;
+  max-width: 250px;
+  overflow: hidden;
+  white-space: pre-line;
+}

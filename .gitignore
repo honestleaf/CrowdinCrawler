@@ -1,0 +1,9 @@
+node_modules
+*.log
+*.lock
+*.bat
+/.idea
+/dist
+/.nyc_output
+/coverage
+/types
