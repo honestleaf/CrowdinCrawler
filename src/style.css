@@ -27,3 +27,12 @@
   overflow: hidden;
   white-space: pre-line;
 }
+
+#translation-data-table br {
+  mso-data-placement: same-cell;
+}
+
+.ui-dialog-titlebar-copy {
+  position: absolute;
+  right: 50px;
+}
